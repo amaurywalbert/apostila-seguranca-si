@@ -53,6 +53,6 @@ O que compõe a TCB de um sistema e qual é a relação entre o tamanho da TCB e
 Diferencie o perfil dos atacantes da "Fase Inicial" (anos 80/90) para o cenário atual de **APTs (Advanced Persistent Threats)** e **Ransomware-as-a-Service (RaaS)**. O que mudou em termos de motivação e organização?
 
 ---
-**Instruções para entrega:**
+**Instruções:**
 *   As respostas devem ser fundamentadas no material didático do Módulo 01.
 *   Para as questões de análise, utilize exemplos práticos para ilustrar seu raciocínio.
