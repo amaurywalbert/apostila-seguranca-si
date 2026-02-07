@@ -164,7 +164,7 @@ Nesse contexto, espera-se que o egresso do curso de Sistemas de Informação sej
 ## Referências e Leituras Complementares
 
 *   [Petrobras tem 90 GB de dados confidenciais roubados (TecMundo)](https://www.tecmundo.com.br/seguranca/408660-petrobras-tem-90-gb-de-dados-confidenciais-roubados-em-suposto-ataque-hacker.htm)
-*   [O que se sabe sobre ataque cibernético à JBS (G1)](https://g1.globo.com/economia/agronegocios/noticia/2021/06/02/o-que-se-sabe-sobre-ataque-cibernetico-a-jbs-investigado-pelo-fbi)
+*   [O que se sabe sobre ataque cibernético à JBS (G1)](https://g1.globo.com/economia/agronegocios/noticia/2021/06/02/o-que-se-sabe-sobre-ataque-cibernetico-a-jbs-investigado-pelo-fbi.ghtml)
 *   [SolarWinds: O Ataque que Abalou o Mundo Corporativo](https://virtuaworks.com.br/solarwinds-o-ataque-que-abalou-o-mundo)
 *   [Brasil tem escassez de 750 mil profissionais de cibersegurança](https://www.tecmundo.com.br/mercado/286789-brasil-tem-escassez-750-mil-profissionais-ciberseguranca-diz-estudo.htm)
 *   [Guia Completo da Carreira em Segurança da Informação](https://blog.anhanguera.com/seguranca-da-informacao)

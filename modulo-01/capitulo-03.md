@@ -137,4 +137,4 @@ A **Base de Computação Confiável (Trusted Computing Base – TCB)** correspon
 *   PFLEEGER, C. P.; PFLEEGER, S. L. Security in Computing.
 *   [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 *   [Verizon Data Breach Investigations Report (DBIR)](https://www.verizon.com/business/resources/reports/dbir/)
-*   [ENISA Threat Landscape](https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends)
+*   [ENISA Threat Landscape](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025)
