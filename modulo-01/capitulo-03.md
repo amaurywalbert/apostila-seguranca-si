@@ -254,11 +254,9 @@ A análise do panorama moderno revela que:
 * **Ataque ao Twitter (2020):** [Matéria sobre como o fator humano foi o elo fraco no incidente do Twitter](https://olhardigital.com.br/2020/07/16/seguranca/ataque-ao-twitter-prova-que-pessoas-sao-o-elo-fraco-de-sistemas-de-seguranca/)
 * **Ataques a Hospitais:** [Alerta da ISH Tecnologia sobre ciberataques a hospitais brasileiros](https://itsection.com.br/2025/09/30/ish-tecnologia-alerta-para-ciberataques-a-hospitais-brasileiros)
 
-## Leituras Complementares
-Para aprofundar os conhecimentos em frameworks e tendências globais de ameaças:
 
-* **ENISA – Threat Landscape:** [Relatório de panorama de ameaças da agência da União Europeia](https://www.enisa.europa.eu/topics/threat-risk-management/threats-and-trends)
+* **ENISA – Threat Landscape:** [Relatório de panorama de ameaças da agência da União Europeia](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025)
 * **NIST – Cybersecurity Framework:** [Framework de referência para gestão de riscos de cibersegurança](https://www.nist.gov/cyberframework)
-* **OWASP Foundation:** [Referência para Threat Modeling e o Top 10 vulnerabilidades](https://owasp.org)
+* **OWASP Foundation:** [Referência para Threat Modeling e o Top 10 vulnerabilidades](https://owasp.org/www-project-top-ten/)
 * **MITRE ATT&CK Framework:** [Base de conhecimento global de táticas e técnicas de adversários](https://attack.mitre.org)
 * **CISA – Ransomware Guidance:** [Guia oficial do governo dos EUA para prevenção e resposta a Ransomware](https://www.cisa.gov/ransomware)
