@@ -4,7 +4,7 @@
 
 As vulnerabilidades em aplicações representam falhas ou fraquezas presentes no software que podem ser exploradas por agentes maliciosos para comprometer a segurança da informação. Essas falhas não são eventos aleatórios, mas sim consequências previsíveis de erros de projeto, implementação inadequada, ausência de validação de entradas, configurações inseguras ou falhas na lógica de negócio.
 
-No contexto da Segurança em Sistemas de Informação, compreender essas vulnerabilidades é essencial, pois permite não apenas identificar pontos de falha, mas também antecipar ataques e adotar medidas preventivas. De forma geral, essas vulnerabilidades impactam diretamente os três pilares da segurança da informação: confidencialidade, integridade e disponibilidade :contentReference[oaicite:3]{index=3}.
+No contexto da Segurança em Sistemas de Informação, compreender essas vulnerabilidades é essencial, pois permite não apenas identificar pontos de falha, mas também antecipar ataques e adotar medidas preventivas. De forma geral, essas vulnerabilidades impactam diretamente os três pilares da segurança da informação: confidencialidade, integridade e disponibilidade.
 
 Uma vulnerabilidade, por si só, não causa dano imediato. O impacto ocorre quando existe uma ameaça capaz de explorá-la. Essa relação pode ser representada pela seguinte expressão conceitual:
 
@@ -27,7 +27,7 @@ Outro aspecto relevante nas aplicações modernas é o uso intensivo de componen
 Por fim, existem as vulnerabilidades de lógica de negócio, que não decorrem de falhas técnicas, mas sim de erros no fluxo funcional da aplicação. Essas falhas são particularmente difíceis de detectar, pois exigem compreensão do funcionamento do sistema.
 
 > 📌 **Exemplo real:**
-> Vazamentos massivos de dados em servidores Elasticsearch expostos sem autenticação demonstram como falhas de configuração podem comprometer sistemas inteiros, mesmo quando o código da aplicação não apresenta erros diretos :contentReference[oaicite:4]{index=4}.
+> Vazamentos massivos de dados em servidores Elasticsearch expostos sem autenticação demonstram como falhas de configuração podem comprometer sistemas inteiros, mesmo quando o código da aplicação não apresenta erros diretos.
 
 | Box – Atenção Conceitual |
 | :--- |
@@ -60,7 +60,7 @@ As vulnerabilidades de injeção (A03) continuam sendo extremamente relevantes, 
 O OWASP também destaca falhas relacionadas ao design (A04), configuração (A05) e uso de componentes vulneráveis (A06), evidenciando a evolução do cenário de ameaças, que passou a incluir problemas estruturais e de cadeia de suprimentos.
 
 > 📌 **Exemplo real:**
-> O ataque à SolarWinds demonstrou como vulnerabilidades na cadeia de suprimentos podem comprometer milhares de organizações simultaneamente, reforçando a importância da integridade de software :contentReference[oaicite:5]{index=5}.
+> O ataque à SolarWinds demonstrou como vulnerabilidades na cadeia de suprimentos podem comprometer milhares de organizações simultaneamente, reforçando a importância da integridade de software.
 
 | Box – Atenção ENADE |
 | :--- |
@@ -81,7 +81,7 @@ A validação insuficiente de entradas também é uma das principais causas de v
 Por fim, configurações inseguras representam uma das falhas mais frequentes em ambientes reais. Serviços ativos desnecessários, mensagens de erro detalhadas e uso de credenciais padrão são exemplos clássicos.
 
 > 📌 **Exemplo real:**
-> Ataques recentes a APIs públicas demonstram como endpoints expostos sem autenticação adequada podem permitir acesso a dados sensíveis e comprometer sistemas inteiros :contentReference[oaicite:6]{index=6}.
+> Ataques recentes a APIs públicas demonstram como endpoints expostos sem autenticação adequada podem permitir acesso a dados sensíveis e comprometer sistemas inteiro.
 
 | Box – Erro Comum |
 | :--- |

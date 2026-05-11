@@ -21,7 +21,7 @@ Na implantação, erros de configuração podem comprometer completamente a segu
 Por fim, a manutenção reforça o caráter contínuo da segurança. Novas vulnerabilidades surgem constantemente, exigindo atualizações, monitoramento e resposta a incidentes.
 
 > 📌 **Exemplo real:**
-> A vulnerabilidade Log4Shell, descoberta em 2021 na biblioteca Apache Log4j, permitia execução remota de código e afetou milhões de sistemas globalmente. O incidente evidenciou falhas não apenas na implementação da biblioteca, mas também na gestão de dependências e na ausência de visibilidade sobre componentes utilizados nos sistemas :contentReference[oaicite:0]{index=0}.
+> A vulnerabilidade Log4Shell, descoberta em 2021 na biblioteca Apache Log4j, permitia execução remota de código e afetou milhões de sistemas globalmente. O incidente evidenciou falhas não apenas na implementação da biblioteca, mas também na gestão de dependências e na ausência de visibilidade sobre componentes utilizados nos sistemas.
 
 | Box – Erro Comum |
 | :--- |
@@ -44,7 +44,7 @@ Um dos elementos centrais do Secure SDLC é a automação da segurança por meio
 Outro aspecto fundamental é a gestão de dependências. O uso intensivo de bibliotecas de terceiros aumenta a produtividade, mas também introduz riscos significativos. Ferramentas de análise de composição de software permitem identificar vulnerabilidades em dependências, evitando que falhas externas comprometam o sistema.
 
 > 📌 **Exemplo real:**
-> O vazamento de dados da Equifax, em 2017, foi causado pela exploração de uma vulnerabilidade conhecida em um framework web que não havia sido corrigida. O incidente afetou mais de 140 milhões de pessoas e demonstrou falhas graves no processo de gestão de vulnerabilidades e atualização de sistemas :contentReference[oaicite:1]{index=1}.
+> O vazamento de dados da Equifax, em 2017, foi causado pela exploração de uma vulnerabilidade conhecida em um framework web que não havia sido corrigida. O incidente afetou mais de 140 milhões de pessoas e demonstrou falhas graves no processo de gestão de vulnerabilidades e atualização de sistemas.
 
 | Box – Atenção Conceitual |
 | :--- |
@@ -67,7 +67,7 @@ O princípio do *fail secure* também é essencial, garantindo que falhas result
 Mais recentemente, o modelo Zero Trust reforça essa abordagem ao eliminar a confiança implícita em componentes internos. Nesse modelo, cada requisição deve ser autenticada e validada continuamente, independentemente de sua origem.
 
 > 📌 **Exemplo real:**
-> Incidentes envolvendo falhas de controle de sessão, como compromissos de tokens de autenticação em plataformas digitais, demonstram que problemas de segurança frequentemente têm origem em decisões de projeto, e não apenas em erros de implementação :contentReference[oaicite:2]{index=2}.
+> Incidentes envolvendo falhas de controle de sessão, como compromissos de tokens de autenticação em plataformas digitais, demonstram que problemas de segurança frequentemente têm origem em decisões de projeto, e não apenas em erros de implementação.
 
 | Box – Atenção Conceitual |
 | :--- |
@@ -92,7 +92,7 @@ Arquiteturas modernas, como microservices e computação em nuvem, introduzem no
 Além disso, a observabilidade desempenha papel fundamental, permitindo detectar comportamentos anômalos e responder rapidamente a incidentes. Logs, métricas e sistemas de monitoramento são essenciais para garantir visibilidade sobre o sistema.
 
 > 📌 **Exemplo real:**
-> Vazamentos de dados causados por falhas em APIs, como exposição de tokens de acesso ou falhas de autorização, demonstram como problemas arquiteturais podem comprometer milhões de usuários simultaneamente :contentReference[oaicite:3]{index=3}.
+> Vazamentos de dados causados por falhas em APIs, como exposição de tokens de acesso ou falhas de autorização, demonstram como problemas arquiteturais podem comprometer milhões de usuários simultaneamente.
 
 | Box – Erro Comum |
 | :--- |
