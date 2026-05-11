@@ -1,7 +1,7 @@
 # 🔐 Laboratório Prático – Testes de Segurança em Aplicações (Cap. 14)
 
-## 📌 Tema
 
+## 📌 Tema
 Identificação e exploração controlada de vulnerabilidades em aplicações web utilizando ferramentas de análise (DAST) e técnicas básicas de *penetration testing*.
 
 ---
@@ -43,7 +43,8 @@ Utilize uma das aplicações vulneráveis abaixo:
 
 ```bash
 docker run -d -p 3000:3000 bkimminich/juice-shop
-``` id="3h9h2a"
+```
+id="3h9h2a"
 
 Acesse: http://localhost:3000
 
