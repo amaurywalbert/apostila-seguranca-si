@@ -112,7 +112,7 @@ Além disso, a observabilidade desempenha papel fundamental, permitindo detectar
 
 ## Referências e Leituras Complementares
 
-*   [Log4Shell: Vulnerabilidade crítica na biblioteca Log4j (CISA)](https://www.cisa.gov/log4j)
+*   [Log4Shell: Vulnerabilidade crítica na biblioteca Log4j (CISA)](https://www.cisa.gov/news-events/news/apache-log4j-vulnerability-guidance)
 *   [Equifax Data Breach – Resumo do incidente (FTC)](https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement)
 *   [OWASP Top 10 – Principais vulnerabilidades em aplicações web](https://owasp.org/www-project-top-ten/)
 *   [OWASP SAMM – Software Assurance Maturity Model](https://owaspsamm.org/)
