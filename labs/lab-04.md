@@ -178,7 +178,9 @@ Verificar falha de sanitização de entrada.
 
 ```html
 <script>alert('XSS')</script>
-``` id="j5h7nd"
+```
+
+id="j5h7nd"
 
 ## ▶️ Passos
 
