@@ -6,7 +6,7 @@ Este repositório contém o material didático da disciplina de **Segurança em 
 
 O conteúdo está dividido em módulos temáticos, cada um contendo capítulos teóricos, exemplos práticos e listas de exercícios.
 
-### [Módulo 01: Fundamentos e Panorama de Ameaças](./modulo-01/)
+### Módulo 01: Fundamentos e Panorama de Ameaças
 *   **Capítulo 1:** [Introdução à Segurança da Informação](./modulo-01/capitulo-01.md)
 *   **Capítulo 2:** [Princípios e Propriedades de Segurança](./modulo-01/capitulo-02.md)
 *   **Capítulo 3:** [Ameaças, Vulnerabilidades e Ataques](./modulo-01/capitulo-03.md)
