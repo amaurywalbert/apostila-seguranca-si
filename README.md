@@ -24,6 +24,24 @@ O conteúdo está dividido em módulos temáticos, cada um contendo capítulos t
 *   **Capítulo 10:** Autorização e Controle de Acesso
 *   **Capítulo 11:** Protocolos de Autenticação e Autorização
 
+### Módulo 04: Segurança de Aplicações
+*   **Capítulo 12:** [Desenvolvimento Seguro de Software](./modulo-04/capitulo-12.md)
+*   **Capítulo 13:** [Vulnerabilidades am Aplicações](./modulo-04/capitulo-13.md)
+*   **Capítulo 14:** [Testes de Segurança em Aplicações](./modulo-04/capitulo-14.md)
+*   **Exercícios:** [Lista de Exercícios do Módulo 04](./modulo-04/exercicios/lista-04.md)
+*   **Laboratório Prático:** [Laboratório Prático - Testes de Segurança em Aplicações](./labs/lab-04.md)
+
+### Módulo 05: Segurança de Redes e Infraestrutura (Em breve)
+*   **Capítulo 15:** Arquitetura de Redes Seguras
+*   **Capítulo 16:** Monitoramento e Defesa de Redes
+*   **Capítulo 17:** Protocolos e Comunicação Segura
+
+### Módulo 06: Operações, Governança e Conformidade (Em breve)
+*   **Capítulo 18:** Gestão de Segurança da Informação
+*   **Capítulo 19:** Monitoramento, Logs e SIEM
+*   **Capítulo 20:** Resposta a Incidentes
+*   **Capítulo 21:** Governança, Normas e Aspectos Legais
+
 ---
 
 ## 🛠️ Como utilizar este material
