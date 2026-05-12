@@ -44,7 +44,7 @@ Utilize uma das aplicações vulneráveis abaixo:
 ```bash
 docker run -d -p 3000:3000 bkimminich/juice-shop
 ```
-id="3h9h2a"
+
 
 Acesse: http://localhost:3000
 
@@ -107,7 +107,7 @@ Mapear a superfície de ataque da aplicação.
 # 🕵️ Atividade 2 – Interceptação de Requisições
 
 ## Ferramenta
-Burp Suite
+Burp Suite Community Edition
 
 ## 🔧 Configuração
 
@@ -119,12 +119,12 @@ IP: 127.0.0.1
 Porta: 8080
 
 
-4. Configure o navegador para usar esse proxy  
+4. Configure o navegador para usar esse proxy ou use o navegador integrado ao Burp Suite
 
 ## ▶️ Execução
 
-1. Ative **Intercept ON**  
-2. Realize uma ação (ex: login)  
+1. Realize uma ação (ex: login)  
+2. No Burp Suite vá para **Proxy → HTTP History**  
 3. Observe a requisição interceptada  
 
 ## 🔎 Analise
@@ -146,15 +146,21 @@ Porta: 8080
 ## Objetivo
 Explorar falha de validação de entrada.
 
-## Entrada de teste
-' OR '1'='1
+## Entradas de teste
+
+admin' --
+' OR 'a'='a
+' OR ''=''
+' OR 1=1 --
+' OR true --
 
 
 ## ▶️ Passos
 
 1. Localize campo de login ou busca  
 2. Insira o payload  
-3. Envie a requisição  
+3. Envie a requisição
+4. Acesse a página de administração e liste os usuários e comentários registrados.
 
 ## 🔎 Resultados esperados
 
@@ -180,7 +186,6 @@ Verificar falha de sanitização de entrada.
 <script>alert('XSS')</script>
 ```
 
-id="j5h7nd"
 
 ## ▶️ Passos
 
