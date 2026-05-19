@@ -19,32 +19,17 @@ Ao final desta atividade, você será capaz de:
 
 ---
 
-## 📚 Pré-requisitos
-
-Antes de iniciar, você deve possuir:
-
-- Conhecimentos básicos de HTTP:
-  - Métodos (GET, POST)
-  - Headers
-  - Parâmetros de requisição
-- Noções de aplicações web
-- Ambiente virtual ou máquina isolada (recomendado)
-
----
-
 ## 🧪 Ambiente do Laboratório
 
-Utilize uma das aplicações vulneráveis abaixo:
+Utilize a aplicação vulnerável abaixo:
 
-- OWASP Juice Shop  
-- DVWA (Damn Vulnerable Web Application)
+- OWASP Juice Shop 
 
 ### 🔧 Sugestão de Setup (Docker)
 
 ```bash
 docker run -d -p 3000:3000 bkimminich/juice-shop
 ```
-
 
 Acesse: http://localhost:3000
 
@@ -184,13 +169,37 @@ Verificar falha de sanitização de entrada.
 
 ```html
 <script>alert('XSS')</script>
+<img src=x onerror=alert('XSSAqui!')>
 ```
 
-
 ## ▶️ Passos
+✅ Passo 1 — Escolher um campo refletido/renderizado
 
-1. Insira o código em campos de entrada  
-2. Submeta o formulário  
+Os melhores locais normalmente são:
+
+campo de busca
+comentários/reviews
+feedback
+chat
+parâmetros na URL
+
+✅ Passo 2 — Inserir o payload
+Exemplo:
+
+<img src=x onerror=alert('XSS')>
+
+Cole exatamente isso no campo.
+
+✅ Passo 3 — Submeter e observar
+
+O que pode acontecer:
+
+Resultado	Interpretação
+Alert aparece	XSS confirmado
+Tag aparece como texto	protegido
+Tag removida	sanitizado
+Imagem quebrada sem alert	atributo filtrado
+
 
 ## 🔎 Resultados esperados
 
@@ -199,7 +208,7 @@ Verificar falha de sanitização de entrada.
 
 ## 📌 Perguntas
 
-- O sistema sanitiza a entrada?  
+- O sistema sanitiza as entradas?  
 - Qual o impacto para outros usuários?  
 
 ---
@@ -207,13 +216,20 @@ Verificar falha de sanitização de entrada.
 # 🤖 Atividade 5 – Varredura Automatizada (DAST)
 
 ## Ferramenta
-OWASP ZAP
+OWASP ZAP (OWASP ZAP 2.17.0 exige Java 17 ou superior)
 
 ## ▶️ Passos
 
-1. Inicie o ZAP  
-2. Configure o proxy  
-3. Acesse a aplicação via navegador  
+
+Para executar uma verificação automatizada de início rápido:
+
+1. Inicie o ZAP e clique na guia Início Rápido da janela do Espaço de Trabalho.
+
+2. Clique no botão grande Verificação Automatizada.
+
+3. Na caixa de texto URL a ser atacada, insira o URL completo do aplicativo web que você deseja atacar.
+
+4. Clique em Atacar.
 
 ### Execução
 
@@ -235,7 +251,11 @@ OWASP ZAP
 # 🧱 Atividade 6 – Análise Arquitetural
 
 ## Objetivo
-Identificar falhas estruturais.
+Analisar a arquitetura da aplicação identificar falhas de projeto e segurança estrutural.
+
+Ou seja:
+
+“Como a aplicação foi construída e quais riscos isso gera?”
 
 ## 🔎 Avalie
 
@@ -244,7 +264,7 @@ Identificar falhas estruturais.
 - Validação de entrada  
 - Configurações de segurança  
 
-## 📌 Perguntas
+## 📌 Exemplo de perguntas que precisam ser respondidas durante a avaliação acima:  
 
 - Existem APIs expostas sem autenticação?  
 - O backend valida os dados corretamente?  
@@ -262,11 +282,7 @@ Propor soluções de segurança.
 - Boa prática associada  
 - Ferramenta de prevenção  
 
-## Exemplos
-
-- SQL Injection → Prepared Statements  
-- XSS → Sanitização de entrada  
-- Controle de acesso → RBAC  
+Use uma tabela para sistematizar a descrição.
 
 ---
 
@@ -274,18 +290,7 @@ Propor soluções de segurança.
 
 Cada grupo deve entregar:
 
-## 1. Relatório Técnico
-
-- Vulnerabilidades encontradas  
-- Evidências (prints/logs)  
-- Classificação (OWASP Top 10)  
-- Impacto  
-- Mitigações  
-
-## 2. Conclusão
-
-- Nível de segurança da aplicação  
-- Principais riscos identificados  
+## 1. Relatório Técnico contendo as respostas de cada atividade realizada.
 
 ---
 
