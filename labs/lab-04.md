@@ -133,12 +133,17 @@ Explorar falha de validação de entrada.
 
 ## Entradas de teste
 
+```html
 admin' --
-' OR 'a'='a
-' OR ''=''
-' OR 1=1 --
-' OR true --
 
+' OR 'a'='a
+
+' OR ''=''
+
+' OR 1=1 --
+
+' OR true --
+```
 
 ## ▶️ Passos
 
@@ -165,10 +170,11 @@ admin' --
 ## Objetivo
 Verificar falha de sanitização de entrada.
 
-## Entrada de teste
+## Entradas de teste (payload)
 
 ```html
 <script>alert('XSS')</script>
+
 <img src=x onerror=alert('XSSAqui!')>
 ```
 
@@ -184,11 +190,13 @@ chat
 parâmetros na URL
 
 ✅ Passo 2 — Inserir o payload
+
 Exemplo:
-
+```html
 <img src=x onerror=alert('XSS')>
-
+```
 Cole exatamente isso no campo.
+
 
 ✅ Passo 3 — Submeter e observar
 

@@ -36,9 +36,9 @@ O conteúdo está dividido em módulos temáticos, cada um contendo capítulos t
 *   **Capítulo 16:** Monitoramento e Defesa de Redes
 *   **Capítulo 17:** Protocolos e Comunicação Segura
 
-### Módulo 06: Operações, Governança e Conformidade (Em breve)
-*   **Capítulo 18:** Gestão de Segurança da Informação
-*   **Capítulo 19:** Monitoramento, Logs e SIEM
+### Módulo 06: Operações, Governança e Conformidade
+*   **Capítulo 18:** [Gestão de Segurança da Informação](./modulo-06/capitulo-18.md)
+*   **Capítulo 19:** [Monitoramento, Logs e SIEM](./modulo-06/capitulo-19.md)
 *   **Capítulo 20:** Resposta a Incidentes
 *   **Capítulo 21:** Governança, Normas e Aspectos Legais
 
