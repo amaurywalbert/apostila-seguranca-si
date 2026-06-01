@@ -39,8 +39,8 @@ O conteúdo está dividido em módulos temáticos, cada um contendo capítulos t
 ### Módulo 06: Operações, Governança e Conformidade
 *   **Capítulo 18:** [Gestão de Segurança da Informação](./modulo-06/capitulo-18.md)
 *   **Capítulo 19:** [Monitoramento, Logs e SIEM](./modulo-06/capitulo-19.md)
-*   **Capítulo 20:** [Resposta a Incidentes] (./modulo-06/capitulo-20.md)
-*   **Capítulo 21:** [Governança, Normas e Aspectos Legais] (./modulo-06/capitulo-21.md)
+*   **Capítulo 20:** [Resposta a Incidentes](./modulo-06/capitulo-20.md)
+*   **Capítulo 21:** [Governança, Normas e Aspectos Legais](./modulo-06/capitulo-21.md)
 *   **Exercícios:** [Lista de Exercícios do Módulo 06](./exercicios/lista-06.md)
 *   **Laboratório Prático:** [Laboratório Prático - Testes de Segurança em Aplicações](./labs/lab-06.md)
 
